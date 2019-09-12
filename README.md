@@ -1,1 +1,1 @@
-# spring-boot-template-engine-demo
+# spring-boot-thymeleaf-demo
