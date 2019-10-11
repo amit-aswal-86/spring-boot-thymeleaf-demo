@@ -1,1 +1,1 @@
-# spring-boot-thymeleaf-demo
+# spring-boot-thymeleaf-demo using coreui
