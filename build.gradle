@@ -33,4 +33,6 @@ dependencies {
 
 	// newly added
 	compile group: 'nz.net.ultraq.thymeleaf', name: 'thymeleaf-layout-dialect', version: '2.4.1'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.17'
 }

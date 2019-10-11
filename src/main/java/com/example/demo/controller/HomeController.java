@@ -10,7 +10,7 @@ public class HomeController {
   public final String viewDir = "home";
 
   @RequestMapping("/")
-  String index() {
+  public String index() {
     return viewDir + "/index";
   }
 }
