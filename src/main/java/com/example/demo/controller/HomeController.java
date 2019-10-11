@@ -7,8 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HomeController {
 
+  public final String viewDir = "home";
+
   @RequestMapping("/")
   String index() {
-    return "index";
+    return viewDir + "/index";
   }
 }
